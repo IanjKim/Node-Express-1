@@ -1,6 +1,6 @@
-const express = require('express');
+const express = require("express");
 const axios = require('axios');
-var app = express();
+const app = express();
 const ExpressError = require("./expressError");
 const router = express.Router();
 
